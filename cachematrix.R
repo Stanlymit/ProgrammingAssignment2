@@ -1,16 +1,16 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## project is dedicated to cashing the inverse of a matrix. Contains the following two functions:
+## makeCacheMatrix and cacheSolve 
 
 makeCacheMatrix <- function(x = matrix()) {
 
-## attemp to edit and commit
+## return an inverse of the square matrix
+        solve(x)
 
 }
 
 
-## Write a short comment describing this function
+## cacheSolve: This function computes the inverse of the special "matrix" returned by makeCacheMatrix above.
+## If the inverse has already been calculated (and the matrix has not changed), then the cachesolve should retrieve the inverse from the cache.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
